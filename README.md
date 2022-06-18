@@ -10,7 +10,8 @@ Arduino nano bere pritisnjene tipke na tipkovnici. Ob vsakem pritisku znak pošl
 [![Demonstracija projekta](https://i.ytimg.com/vi/Sgy8DASde9M/maxresdefault.jpg)](https://www.youtube.com/watch?v=Sgy8DASde9M)
 
 ## Shema vezja
-Shema je priložena v obliki slike "VIN_shema.png"
+![image](./VIN_shema.png)
+Slika sheme je na voljo tudi kot datoteka "VIN_shema.png"
 
 ## Komponente
 - Arduino Uno
