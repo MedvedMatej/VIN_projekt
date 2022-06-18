@@ -24,15 +24,15 @@ Shema je priložena v obliki slike "VIN_shema.png"
 
 #### Arduino Uno in Arduino Nano
 ![image](./Slike-komponent/arduino_uno.png)
-![image](./Slike-komponent/nano.jpg)
+![image](./Slike-komponent/nano.jpg)  
 Sta mikrokrmilnika, ki nam omogočata nadzorovanje vhodno izhodnih naprav. Imata pine za napajanje (5V in 3.3V), pine za ozemljitev, digitalne pine (tu sta le visoko in nizko stanje) in analogne pine (tu se napetost pretvori v vrednost med 0 in 1023).
 
 #### Matrična Tipkovnica (4x4)
-![image](./Slike-komponent/keypad.png)
+![image](./Slike-komponent/keypad.png)  
 Ima osem pinov za priklov. Štirje služijo za vrstice in štirje za stolpce. Pritisnjene tipke zaznavamo s skeniranjem. Pine vseh vrstic nastavimo na visoko stanje. Nato se postavimo v prvo vrstico in stanje spremenimo na nizko, zatem postopoma pregledamo pine vseh stolpcev. Če je bila pritisnjena tipka v danem stolpcu in vrstici je vhodno stanje na pinu stolpca nizko. To ponavljamo za vse vrstice in stolpce in s tem beležimo pritiske tipk. Omenjeni nivoji so lahko tudi obratni, če namesto pull-up vezave uporabimo pull-down.
 
 #### LCD Zaslon (16x2)
-![image](./Slike-komponent/lcd.jpg)
+![image](./Slike-komponent/lcd.jpg)  
 Zaslon nam omogoča izpis 32 znakov (po 16 na vrstico).
 Ima naslednje pine:
 - VSS - povezava na gnd
