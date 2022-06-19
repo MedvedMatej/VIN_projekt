@@ -1,5 +1,8 @@
 # VIN projekt - Odklepanje vrat z matrično tipkovnico
 
+## Dostopno tudi prek
+https://github.com/MedvedMatej/VIN_projekt
+
 ## Ideja
 Ideja je preko tipkovnice prebrati varnostno kodo in na podlagi vnosa vrniti ustrezen odziv. V kolikor je bila prejeta koda pravilna se nam odprejo vrata (v mojem primeru sem vrata simuliral z zeleno LED, ki se obarva ob pravilni kombinaciji), v nasprotnem primeru smo opozorjeni, da vnesena koda ni pravilna.
 
